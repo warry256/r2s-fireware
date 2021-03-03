@@ -11,9 +11,9 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman.git' feeds.conf.default
-sed -i '$a src-git awesome https://github.com/awesome-openwrt/app-ssr-plus.git' feeds.conf.default
+#sed -i '$a src-git awesome https://github.com/awesome-openwrt/app-ssr-plus.git' feeds.conf.default
